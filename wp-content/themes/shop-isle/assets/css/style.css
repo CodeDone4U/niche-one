@@ -28,16 +28,15 @@
 	line-height: 1;
 	text-transform: none;
 	content: attr(data-icon);
-
 	speak: none;
 }
-
 /* Use the following CSS code if you want to have a class per icon */
 /*
 Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="your-class-prefix"] {
 */
+
 .arrow_up,
 .arrow_down,
 .arrow_left,
@@ -4718,7 +4717,7 @@ Scroll to top
 	height: 28px;
 	border-radius: 2px;
 	opacity: 0.6;
-	color: #000;
+	color: red;
 	background: #fff;
 	font-size: 14px;
 	line-height: 28px;
@@ -4728,7 +4727,7 @@ Scroll to top
 .scroll-up a:hover,
 .scroll-up a:active {
 	opacity: 1;
-	color: #000;
+	color: green;
 }
 .shop_isle_header_title {
 	float: left;
